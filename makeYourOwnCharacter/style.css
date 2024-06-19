@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(#caa8f5, #9984d4, #892e83, #230c33);
+}
+
+.makeCharacter {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.character {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Bebas Neue", sans-serif;
+    gap: 10px;
+}
+
+.infoCharacter {
+    width: 150px;
+    position: relative;
+    left: 30px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.divBox {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    grid-area: main;
+}
+
+.traits {
+    display: grid;
+    grid-template-areas: 
+    "a a ."
+    "a a ."
+    ". b c";
+    width: 250px;
+    text-align: center;
+    gap: 10px;
+}
+
+.trait {
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    
+}
+
+.traitsHover {
+    display: block;
+    cursor: pointer;
+}
+
+.catsInfo {
+    display: none;
+}
+
+.trait:hover .traitsHover {
+    display: none;
+}
+
+.trait:hover .catsInfo {
+    display: block;
+    
+}
