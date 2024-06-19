@@ -1,22 +1,22 @@
-/*body {
+body {
     margin: 0;
-    background-image: linear-gradient(#ede0d4, #e6ccb2, #ddb892, #b08968, #7f5539, #9c6644);
-}
-
-.div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    gap: 15px;
+    background-image: linear-gradient(#caa8f5, #9984d4, #892e83, #230c33);
 }
 
-.imgCharacter {
-    border: 2px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: white;
+.makeCharacter {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.character {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Bebas Neue", sans-serif;
+    gap: 10px;
 }
 
 .infoCharacter {
@@ -27,11 +27,49 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
 }
 
 .divBox {
     border: 2px solid black;
     width: 200px;
     height: 200px;
-}*/
+    margin-top: 20px;
+    grid-area: main;
+}
+
+.traits {
+    display: grid;
+    grid-template-areas: 
+    "a a ."
+    "a a ."
+    ". b c";
+    width: 250px;
+    text-align: center;
+    gap: 10px;
+}
+
+.trait {
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    
+}
+
+.traitsHover {
+    display: block;
+    cursor: pointer;
+}
+
+.catsInfo {
+    display: none;
+}
+
+.trait:hover .traitsHover {
+    display: none;
+}
+
+.trait:hover .catsInfo {
+    display: block;
+    
+}

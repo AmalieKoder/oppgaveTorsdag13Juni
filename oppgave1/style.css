@@ -1,0 +1,37 @@
+/*body {
+    margin: 0;
+    background-image: linear-gradient(#ede0d4, #e6ccb2, #ddb892, #b08968, #7f5539, #9c6644);
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+.imgCharacter {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.infoCharacter {
+    width: 150px;
+    position: relative;
+    left: 30px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divBox {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}*/
